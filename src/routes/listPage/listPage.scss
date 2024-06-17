@@ -1,0 +1,30 @@
+.listPage {
+    display: flex;
+    height: 100%;
+
+    .listContainer{
+        flex:3;
+        height: 100%;
+        
+        .wrapper{
+            height: 100%;
+            padding-right: 50px;
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+            overflow-y: hidden;
+            padding-bottom: 50px;
+            
+
+        }
+        .wrapper:hover {
+            overflow-y: scroll; /* Показати смугу прокрутки при наведенні курсору миші */
+        }
+        
+    }
+    .mapContainer{
+        flex:2;
+        height: 100%;
+        background-color: #fcf5f3;
+    }
+}
